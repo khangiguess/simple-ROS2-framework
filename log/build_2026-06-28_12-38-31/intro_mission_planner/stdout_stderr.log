@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating intro_mission_planner.egg-info
+writing intro_mission_planner.egg-info/PKG-INFO
+writing dependency_links to intro_mission_planner.egg-info/dependency_links.txt
+writing requirements to intro_mission_planner.egg-info/requires.txt
+writing top-level names to intro_mission_planner.egg-info/top_level.txt
+writing manifest file 'intro_mission_planner.egg-info/SOURCES.txt'
+reading manifest file 'intro_mission_planner.egg-info/SOURCES.txt'
+writing manifest file 'intro_mission_planner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_mission_planner/lib/python3.12/site-packages/intro-mission-planner.egg-link (link to .)
+
+Installed /home/khangiguess/uav/simple-ROS2-framework/build/intro_mission_planner
+running symlink_data
+creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_mission_planner/share/ament_index
+creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_mission_planner/share/ament_index/resource_index
+creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_mission_planner/share/ament_index/resource_index/packages
+symbolically linking /home/khangiguess/uav/simple-ROS2-framework/build/intro_mission_planner/resource/intro_mission_planner -> /home/khangiguess/uav/simple-ROS2-framework/install/intro_mission_planner/share/ament_index/resource_index/packages
+symbolically linking /home/khangiguess/uav/simple-ROS2-framework/build/intro_mission_planner/package.xml -> /home/khangiguess/uav/simple-ROS2-framework/install/intro_mission_planner/share/intro_mission_planner

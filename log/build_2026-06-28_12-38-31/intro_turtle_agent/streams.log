@@ -1,0 +1,22 @@
+[0.678s] Invoking command in '/home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent': AMENT_PREFIX_PATH=/home/khangiguess/uav/simple-ROS2-framework/install/intro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khangiguess/uav/simple-ROS2-framework/install/intro_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khangiguess/uav/simple-ROS2-framework/install/intro_turtle_agent/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent/build --no-deps symlink_data
+[0.880s] running develop
+[0.997s] running egg_info
+[0.998s] creating intro_turtle_agent.egg-info
+[1.008s] writing intro_turtle_agent.egg-info/PKG-INFO
+[1.009s] writing dependency_links to intro_turtle_agent.egg-info/dependency_links.txt
+[1.009s] writing requirements to intro_turtle_agent.egg-info/requires.txt
+[1.009s] writing top-level names to intro_turtle_agent.egg-info/top_level.txt
+[1.009s] writing manifest file 'intro_turtle_agent.egg-info/SOURCES.txt'
+[1.032s] reading manifest file 'intro_turtle_agent.egg-info/SOURCES.txt'
+[1.032s] writing manifest file 'intro_turtle_agent.egg-info/SOURCES.txt'
+[1.044s] running build_ext
+[1.045s] Creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_turtle_agent/lib/python3.12/site-packages/intro-turtle-agent.egg-link (link to .)
+[1.045s] 
+[1.045s] Installed /home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent
+[1.045s] running symlink_data
+[1.045s] creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_turtle_agent/share/ament_index
+[1.045s] creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_turtle_agent/share/ament_index/resource_index
+[1.045s] creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_turtle_agent/share/ament_index/resource_index/packages
+[1.045s] symbolically linking /home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent/resource/intro_turtle_agent -> /home/khangiguess/uav/simple-ROS2-framework/install/intro_turtle_agent/share/ament_index/resource_index/packages
+[1.045s] symbolically linking /home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent/package.xml -> /home/khangiguess/uav/simple-ROS2-framework/install/intro_turtle_agent/share/intro_turtle_agent
+[1.067s] Invoked command in '/home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent' returned '0': AMENT_PREFIX_PATH=/home/khangiguess/uav/simple-ROS2-framework/install/intro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khangiguess/uav/simple-ROS2-framework/install/intro_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khangiguess/uav/simple-ROS2-framework/install/intro_turtle_agent/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/khangiguess/uav/simple-ROS2-framework/build/intro_turtle_agent/build --no-deps symlink_data

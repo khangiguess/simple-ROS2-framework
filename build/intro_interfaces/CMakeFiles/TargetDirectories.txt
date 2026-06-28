@@ -1,0 +1,9 @@
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/uninstall.dir
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/intro_interfaces_uninstall.dir
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/test.dir
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/edit_cache.dir
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/rebuild_cache.dir
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/list_install_components.dir
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/install.dir
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/install/local.dir
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/CMakeFiles/install/strip.dir

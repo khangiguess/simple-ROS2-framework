@@ -1,0 +1,22 @@
+[0.691s] Invoking command in '/home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khangiguess/uav/simple-ROS2-framework/install/intro_teleop_commander/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander/build --no-deps symlink_data
+[0.912s] running develop
+[1.034s] running egg_info
+[1.034s] creating intro_teleop_commander.egg-info
+[1.045s] writing intro_teleop_commander.egg-info/PKG-INFO
+[1.046s] writing dependency_links to intro_teleop_commander.egg-info/dependency_links.txt
+[1.046s] writing requirements to intro_teleop_commander.egg-info/requires.txt
+[1.046s] writing top-level names to intro_teleop_commander.egg-info/top_level.txt
+[1.046s] writing manifest file 'intro_teleop_commander.egg-info/SOURCES.txt'
+[1.070s] reading manifest file 'intro_teleop_commander.egg-info/SOURCES.txt'
+[1.070s] writing manifest file 'intro_teleop_commander.egg-info/SOURCES.txt'
+[1.082s] running build_ext
+[1.082s] Creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_teleop_commander/lib/python3.12/site-packages/intro-teleop-commander.egg-link (link to .)
+[1.082s] 
+[1.082s] Installed /home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander
+[1.082s] running symlink_data
+[1.083s] creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_teleop_commander/share/ament_index
+[1.083s] creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_teleop_commander/share/ament_index/resource_index
+[1.083s] creating /home/khangiguess/uav/simple-ROS2-framework/install/intro_teleop_commander/share/ament_index/resource_index/packages
+[1.083s] symbolically linking /home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander/resource/intro_teleop_commander -> /home/khangiguess/uav/simple-ROS2-framework/install/intro_teleop_commander/share/ament_index/resource_index/packages
+[1.083s] symbolically linking /home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander/package.xml -> /home/khangiguess/uav/simple-ROS2-framework/install/intro_teleop_commander/share/intro_teleop_commander
+[1.110s] Invoked command in '/home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khangiguess/uav/simple-ROS2-framework/install/intro_teleop_commander/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/khangiguess/uav/simple-ROS2-framework/build/intro_teleop_commander/build --no-deps symlink_data

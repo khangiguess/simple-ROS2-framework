@@ -1,0 +1,1 @@
+/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_core/intro_interfacesConfig-version.cmake

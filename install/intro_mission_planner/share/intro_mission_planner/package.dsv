@@ -1,0 +1,6 @@
+source;share/intro_mission_planner/hook/pythonpath.dsv
+source;share/intro_mission_planner/hook/pythonpath.sh
+source;share/intro_mission_planner/hook/ament_prefix_path.dsv
+source;share/intro_mission_planner/hook/ament_prefix_path.sh
+source;../../build/intro_mission_planner/share/intro_mission_planner/hook/pythonpath_develop.dsv
+source;../../build/intro_mission_planner/share/intro_mission_planner/hook/pythonpath_develop.sh
