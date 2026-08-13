@@ -315,6 +315,69 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/intro_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/intro_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_type_description/intro_interfaces/srv/SetTurtleGoal.json" "DESTINATION" "share/intro_interfaces/srv")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_type_description/intro_interfaces/srv/SetTurtleGoal.json" "DESTINATION" "share/intro_interfaces/srv")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_c/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_c/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/intro_interfaces/environment")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/intro_interfaces/environment")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/intro_interfaces/environment")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/intro_interfaces/environment")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_typesupport_fastrtps_c/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_typesupport_fastrtps_c/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_typesupport_introspection_c/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_typesupport_introspection_c/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_cpp/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_cpp/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_typesupport_fastrtps_cpp/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_typesupport_fastrtps_cpp/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_typesupport_introspection_cpp/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_typesupport_introspection_cpp/intro_interfaces/" "DESTINATION" "include/intro_interfaces/intro_interfaces" "PATTERN" "*.hpp")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/intro_interfaces/environment")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/intro_interfaces/environment")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/intro_interfaces/environment")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/intro_interfaces/environment")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_python/intro_interfaces/intro_interfaces.egg-info/" "DESTINATION" "lib/python3.12/site-packages/intro_interfaces-0.0.1-py3.12.egg-info")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_python/intro_interfaces/intro_interfaces.egg-info/" "DESTINATION" "lib/python3.12/site-packages/intro_interfaces-0.0.1-py3.12.egg-info")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_py/intro_interfaces/" "DESTINATION" "lib/python3.12/site-packages/intro_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_py/intro_interfaces/" "DESTINATION" "lib/python3.12/site-packages/intro_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "intro_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/intro_interfaces")
+include("/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "intro_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/intro_interfaces")
+include("/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "intro_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/intro_interfaces")
+include("/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_index/share/ament_index/resource_index/rust_packages/intro_interfaces" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_index/share/ament_index/resource_index/rust_packages/intro_interfaces" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+
+# install(DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_rs/intro_interfaces/rust" "DESTINATION" "share/intro_interfaces")
+ament_cmake_symlink_install_directory("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" DIRECTORY "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_generator_rs/intro_interfaces/rust" "DESTINATION" "share/intro_interfaces")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_adapter/intro_interfaces/srv/SetTurtleGoal.idl" "DESTINATION" "share/intro_interfaces/srv")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_adapter/intro_interfaces/srv/SetTurtleGoal.idl" "DESTINATION" "share/intro_interfaces/srv")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces/srv/SetTurtleGoal.srv" "DESTINATION" "share/intro_interfaces/srv")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces/srv/SetTurtleGoal.srv" "DESTINATION" "share/intro_interfaces/srv")
+
 # install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/intro_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/intro_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
@@ -350,6 +413,27 @@ ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/s
 
 # install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/intro_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/intro_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+
+# install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/intro_interfaces/cmake")
 
 # install(FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_core/intro_interfacesConfig.cmake" "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_core/intro_interfacesConfig-version.cmake" "DESTINATION" "share/intro_interfaces/cmake")
 ament_cmake_symlink_install_files("/home/khangiguess/uav/simple-ROS2-framework/src/intro_interfaces" FILES "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_core/intro_interfacesConfig.cmake" "/home/khangiguess/uav/simple-ROS2-framework/build/intro_interfaces/ament_cmake_core/intro_interfacesConfig-version.cmake" "DESTINATION" "share/intro_interfaces/cmake")

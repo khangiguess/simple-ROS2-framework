@@ -1,1 +1,0 @@
-/home/khangiguess/uav/simple-ROS2-framework/src/intro_turtle_agent/setup.py
